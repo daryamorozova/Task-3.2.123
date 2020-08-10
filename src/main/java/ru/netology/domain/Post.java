@@ -1,7 +1,7 @@
 package ru.netology.domain;
 
 public class Post {
-    private int id;
+    private int idPost;
 
     private int ownerIdPost;
     private int fromIdPost;
@@ -35,12 +35,12 @@ public class Post {
     private boolean canEditPost;
     private boolean canDeletePost;
 
-    public int getId() {
-        return id;
+    public int getIdPost() {
+        return idPost;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(int idPost) {
+        this.idPost = idPost;
     }
 
     public int getOwnerIdPost() {
