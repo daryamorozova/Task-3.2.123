@@ -1,4 +1,4 @@
-package ru.netology.ru.netology.attachment;
+package ru.netology.attachment;
 
 public class Photo {
 

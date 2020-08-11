@@ -1,4 +1,4 @@
-package ru.netology.ru.netology.attachment;
+package ru.netology.attachment;
 
 public class Document {
     private int id;
@@ -9,5 +9,5 @@ public class Document {
     private String url;
     private int date;
     private int type;
-    private Previw previw;
+    private String previw;
 }

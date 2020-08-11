@@ -1,6 +1,4 @@
-package ru.netology.ru.netology.attachment;
-
-import java.util.prefs.BackingStoreException;
+package ru.netology.attachment;
 
 public class Poll {
     private int id;
@@ -8,7 +6,7 @@ public class Poll {
     private int created;
     private String question;
     private int votes;
-    private Answer answer;
+    private String answer;
     private boolean anononimus;
     private boolean multiple;
     private int endDate;
@@ -20,7 +18,7 @@ public class Poll {
     private boolean canShare;
     private int authorId;
     private Photo photo;
-    private Backgroung backgroung;
+    private String backgroung;
 
 
 }

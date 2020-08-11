@@ -1,4 +1,4 @@
-package ru.netology.ru.netology.attachment;
+package ru.netology.attachment;
 
 public class Link {
     private String url;
@@ -6,8 +6,8 @@ public class Link {
     private String caption;
     private String description;
     private Photo photo;
-    private Product product;
-    private Button button;
+    private String product;
+    private String button;
     private String previewPage;
     private String previewUrl;
 

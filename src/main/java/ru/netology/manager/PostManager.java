@@ -6,13 +6,15 @@ public class PostManager {
 
     private Post[] post;
 
+    public Post[] search(ownerId, query) {
 
-    public Post[] search(ownerIdPost, query) {
+        // TODO
 
         return null;
     }
 
-    public void delete(idPost, ownerIdPost){
+    public void delete(ownerId, postId) {
+        // TODO
 
 
     }

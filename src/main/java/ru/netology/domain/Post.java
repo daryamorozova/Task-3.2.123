@@ -18,7 +18,7 @@ public class Post {
 
     private CommentPost commentPost;
 
-    private AttachmentPost attachmentPost;
+    private String attachmentPost;
 
     private boolean postLike;
     private int countLikes;
@@ -35,11 +35,12 @@ public class Post {
     private boolean canEditPost;
     private boolean canDeletePost;
 
+
     public int getIdPost() {
         return idPost;
     }
 
-    public void setId(int idPost) {
+    public void setIdPost(int idPost) {
         this.idPost = idPost;
     }
 
@@ -115,11 +116,11 @@ public class Post {
         this.commentPost = commentPost;
     }
 
-    public AttachmentPost getAttachmentPost() {
+    public String getAttachmentPost() {
         return attachmentPost;
     }
 
-    public void setAttachmentPost(AttachmentPost attachmentPost) {
+    public void setAttachmentPost(String attachmentPost) {
         this.attachmentPost = attachmentPost;
     }
 
